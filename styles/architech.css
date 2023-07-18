@@ -181,6 +181,22 @@ main{
     align-items: center;
     gap: 20px;
 }
+/* footer section */
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    padding: 39px 410px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 1440px;
+    max-height: 100px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 216px;
+    margin-top: 130px;
+}
 
 /* responsive media queries */
 /* mobile devices */
@@ -230,6 +246,17 @@ main{
         width: 50px;
 
     }
+    .footer{
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 10px;
+        font-weight: 100%;
+        max-width: auto;
+        max-height: auto;
+        margin-left: 0;
+        margin-right: 0;  
+        margin-bottom: 0;      
+    }
     
 }
 /* tablet or medium devices */
@@ -243,6 +270,17 @@ main{
     .sponsors-img-container img{
         width: 100px;
 
+    }
+    .footer{
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 100%;
+        max-width: auto;
+        max-height: auto;
+        margin-left: 0;
+        margin-right: 0;  
+        margin-bottom: 0;      
     }
     
 }
