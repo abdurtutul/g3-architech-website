@@ -18,6 +18,11 @@
     border-style: none;
     cursor: pointer;
 }
+.btn-primary:hover{
+    background-color: #f8bf7d;
+    color: blue;
+    
+}
 .section-title{
     font-size: 3rem;
     font-weight: 700;
